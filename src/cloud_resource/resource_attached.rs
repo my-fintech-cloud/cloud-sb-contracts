@@ -7,4 +7,6 @@ pub struct ResourceAttachedSbEvent {
     pub resource_id: String,
     #[prost(string, tag = "3")]
     pub tenant_id: String,
+    #[prost(string, tag = "4")]
+    pub process_id: String,
 }
