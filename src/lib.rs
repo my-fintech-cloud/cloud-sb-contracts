@@ -1,9 +1,7 @@
 mod logs;
-mod tenant;
-mod deployment;
-mod cloud_resource;
+mod tenant_products;
+mod product_features;
 
 pub use logs::*;
-pub use tenant::*;
-pub use deployment::*;
-pub use cloud_resource::*;
+pub use tenant_products::*;
+pub use product_features::*;
